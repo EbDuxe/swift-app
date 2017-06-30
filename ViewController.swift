@@ -3,7 +3,7 @@
 //  Swift App
 //
 //  Created by Ebony Tiggs on 6/28/17.
-//  Copyright © 2017 Ebony Tiggs. All rights reserved.
+//  Copyright © 2017 Ebony Tiggs. All rights reserved..
 //
 
 import UIKit
@@ -22,8 +22,8 @@ class ViewController: UIViewController {
         
         tapCount = tapCount + 1
         //print(tapCount)
-        if tapCount >= 10 {
-            theLabel.text = "You've tapped the button 10 times!"
+        if tapCount >= 5 {
+            theLabel.text = "You've tapped the button 5 times!💋"
         }
     
         print("Button Tapped")
