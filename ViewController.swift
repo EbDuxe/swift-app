@@ -12,6 +12,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var theLabel: UILabel!
     
+    @IBOutlet weak var Text1: UITextField!
+    
+    @IBOutlet weak var Text2: UITextField!
+    
+    
+    
     var tapCount = 0
     
     @IBAction func buttonTapped(_ sender: Any) {
@@ -27,9 +33,17 @@ class ViewController: UIViewController {
         }
     
         print("Button Tapped")
+
+        
     }
 
 
+    @IBAction func addbuttonTapped(_ sender: Any) {
+        
+        print(Text1.text!)
+        print(Text2.text!)
+        
+    }
     
     @IBOutlet weak var theLabel2: UILabel!
     
