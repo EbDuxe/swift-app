@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Text2: UITextField!
     
+    @IBOutlet weak var theLabel3: UILabel!
     
     
     var tapCount = 0
@@ -39,6 +40,12 @@ class ViewController: UIViewController {
 
 
     @IBAction func addbuttonTapped(_ sender: Any) {
+        
+        
+        theLabel3.text = "Anser: \(Double(Text1.text!)! + Double(Text2.text!)!)"
+        
+        
+        
         
         print(Text1.text!)
         print(Text2.text!)

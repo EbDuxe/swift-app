@@ -94,18 +94,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer is..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdd-UT-GUS">
+                                <rect key="frame" x="137" y="577" width="100" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="BQn-f9-Qor"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="T2O-ft-uf5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0M5-MI-Fr8"/>
                             <constraint firstItem="T2O-ft-uf5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="2oN-bU-je3"/>
                             <constraint firstItem="4v9-g9-8bY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="47b-qv-Al5"/>
+                            <constraint firstItem="jdd-UT-GUS" firstAttribute="top" secondItem="mzv-53-SeI" secondAttribute="bottom" constant="8" symbolic="YES" id="48s-Qf-eGf"/>
                             <constraint firstItem="mzv-53-SeI" firstAttribute="top" secondItem="4v9-g9-8bY" secondAttribute="bottom" constant="141" id="79o-7Q-a3p"/>
                             <constraint firstItem="2MX-bN-unb" firstAttribute="top" secondItem="dbH-8I-Hg3" secondAttribute="bottom" constant="8" id="7Tf-mr-3KU"/>
                             <constraint firstItem="2MX-bN-unb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9cH-vt-1qb"/>
                             <constraint firstItem="dbH-8I-Hg3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E6b-ge-lfm"/>
                             <constraint firstItem="mcz-Sq-Txq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JMF-PZ-UA6"/>
                             <constraint firstItem="4v9-g9-8bY" firstAttribute="top" secondItem="TRw-pm-Oqj" secondAttribute="bottom" constant="68" id="NIN-Q8-mQF"/>
+                            <constraint firstItem="jdd-UT-GUS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tsn-QA-5AP"/>
                             <constraint firstItem="TRw-pm-Oqj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WS3-8r-8W0"/>
                             <constraint firstItem="mcz-Sq-Txq" firstAttribute="top" secondItem="T2O-ft-uf5" secondAttribute="bottom" constant="54" id="XcD-vJ-oQG"/>
                             <constraint firstItem="mzv-53-SeI" firstAttribute="top" secondItem="2MX-bN-unb" secondAttribute="bottom" constant="23" id="Y18-Hf-YBM"/>
@@ -121,10 +132,12 @@
                         <outlet property="Text2" destination="2MX-bN-unb" id="eZa-wJ-iHl"/>
                         <outlet property="theLabel" destination="T2O-ft-uf5" id="Cae-xQ-dPh"/>
                         <outlet property="theLabel2" destination="4v9-g9-8bY" id="vTU-Mf-mVY"/>
+                        <outlet property="theLabel3" destination="jdd-UT-GUS" id="xX3-HM-fcH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="136.28185907046478"/>
         </scene>
     </scenes>
 </document>
